@@ -3,8 +3,18 @@ body
 .container
   width: 1170px
   margin: auto
+@media (max-width:1200px)
+  .container
+    width: 760px
+@media (max-width:768px)
+  .container
+    width: 90%
+    max-width: 580px
 .button
   border-radius: 10px
   background-color: $main-color
   border: none
-  padding: 18px 30px
+  padding: 15px 20px
+  @media (max-width: 425px)
+    .container
+      width: 95%
